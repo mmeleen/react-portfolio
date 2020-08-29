@@ -17,6 +17,7 @@ function About() {
             <p className="lead text-center text-sm-left">Welcome! My name is Matt, and I'm an aspiring full-stack web developer with UT Austin roots. I believe my
             undergraduate Economics degree and Full-Stack Web Development certification from the university have provided me with the tools necessary to be a valuable
             contributor to any team. I look forward to connecting with you!</p>
+            <p className="card-text text-muted">matthew.meleen@gmail.com</p>
           </div>
         </div>
         <div className="row row-cols-1 row-cols-sm-2 mt-3 mb-5">
@@ -31,13 +32,10 @@ function About() {
           </div>
           <div className="col mb-4">
             <div className="card h-100 border-primary">
-              <div className="card-header">Technical Skills</div>
+              <div className="card-header">Certification</div>
               <div className="card-body">
-                <ul>
-                  <li className="">JavaScript, React, Bootstrap<span className="text-muted "></span></li>
-                  <li className="">HTML, CSS, jQuery<span className="text-muted "></span></li>
-                  <li className="">MySQL, MongoDB, Express <span className="text-muted "></span></li>
-                </ul>
+                <h4 className="card-title">Full-Stack Web Development</h4>
+                <p className="card-text"><em>The Coding Boot Camp at UT Austin</em></p>
               </div>
             </div>
           </div>
@@ -54,15 +52,18 @@ function About() {
           </div>
           <div className="col mb-4">
             <div className="card h-100 border-primary">
-              <div className="card-header">Certifications</div>
+              <div className="card-header">Technical Skills</div>
               <div className="card-body">
                 <ul>
-                  <li>Full-Stack Web Development - Coding Bootcamp at UT Austin<span className="text-muted small"></span></li>
-                  <li>Developing Applications with Google Cloud Platform Specialization - Coursera <span className="text-muted small"></span></li>
+                  <li className="">JavaScript, React, Bootstrap<span className="text-muted "></span></li>
+                  <li className="">HTML, CSS, jQuery<span className="text-muted "></span></li>
+                  <li className="">MySQL, MongoDB, Express <span className="text-muted "></span></li>
+                  <li className="">Google Cloud, Google Analytics <span className="text-muted "></span></li>
                 </ul>
               </div>
             </div>
           </div>
+
         </div >
       </main >
     </>
