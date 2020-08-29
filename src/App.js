@@ -15,7 +15,7 @@ function App() {
       <div>
         <Header />
         <Switch>
-          <Route exact path="/about">
+          <Route exact path={["/about", "/"]}>
             <About />
           </Route>
           <Route exact path="/portfolio">
@@ -25,7 +25,7 @@ function App() {
             <Contact />
           </Route> */}
           <Route>
-            <Redirect to="/about" />
+            <Redirect to="/" />
           </Route>
         </Switch>
         <Footer />
