@@ -15,9 +15,9 @@ function Header() {
               <li className="nav-item">
                 <NavLink activeClassName="nav-link active bg-transparent border-primary border-bottom" className="nav-link" to="/portfolio">Portfolio</NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink activeClassName="nav-link active bg-transparent border-primary border-bottom" className="nav-link" to="/contact">Contact</NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
