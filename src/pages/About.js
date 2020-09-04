@@ -55,9 +55,9 @@ function About() {
               <div className="card-header">Technical Skills</div>
               <div className="card-body">
                 <ul>
-                  <li className="">JavaScript, React, Bootstrap<span className="text-muted "></span></li>
-                  <li className="">HTML, CSS, jQuery<span className="text-muted "></span></li>
-                  <li className="">MySQL, MongoDB, Express <span className="text-muted "></span></li>
+                  <li className="">JavaScript, React, Node.js<span className="text-muted "></span></li>
+                  <li className="">HTML5, CSS, Bootstrap, jQuery<span className="text-muted "></span></li>
+                  <li className="">MySQL, MongoDB, Express<span className="text-muted "></span></li>
                   <li className="">Google Cloud, Google Analytics <span className="text-muted "></span></li>
                 </ul>
               </div>
