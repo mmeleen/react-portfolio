@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "http://mmeleen.github.io/react-portfolio",
+  "homepage": "http://www.mattmeleen.com",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
