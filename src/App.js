@@ -15,17 +15,17 @@ function App() {
       <div>
         <Header />
         <Switch>
-          <Route exact path={["/react-portfolio/about", "/react-portfolio"]}>
+          <Route exact path={["/about", "/"]}>
             <About />
           </Route>
-          <Route exact path="/react-portfolio/portfolio">
+          <Route exact path="portfolio">
             <Portfolio />
           </Route>
           {/* <Route exact path="/contact">
             <Contact />
           </Route> */}
           <Route>
-            <Redirect to="/react-portfolio" />
+            <Redirect to="/" />
           </Route>
         </Switch>
         <Footer />
