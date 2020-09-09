@@ -18,7 +18,7 @@ function App() {
           <Route exact path={["/about", "/"]}>
             <About />
           </Route>
-          <Route exact path="portfolio">
+          <Route exact path="/portfolio">
             <Portfolio />
           </Route>
           {/* <Route exact path="/contact">
